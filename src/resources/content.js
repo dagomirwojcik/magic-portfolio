@@ -58,8 +58,8 @@ const home = {
   headline: <>Innovative technologist passionate about systems and storytelling.</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Innovation Fest 2025</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>"What's New:" <strong className="ml-4"> Final Year Project </strong></>,
+    href: "https://fyp.dagomirwojcik.com",
   },
   subline: (
     <>
