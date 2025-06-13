@@ -81,7 +81,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -89,9 +89,11 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Dagomir Wójcik is a University Student at Birmingham City University studying Business Information Technology. 
+        He is a tech enthusiast passionate about computers and business, Dagomir Wójcik seeks new challenges and 
+        utilises them for personal and professional advancements. Dagomir has participated in a lot of projects that 
+        vary in scope but share the technology factor. Dagomir has had project experiences with multiple companies 
+        such as Birmingham City University, Career Colleges Trust and Digital Skills Consulting.
       </>
     ),
   },
