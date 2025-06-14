@@ -1,3 +1,5 @@
+export const runtime = 'edge'; // ✅ Required by Cloudflare Pages
+
 import { NextRequest, NextResponse } from "next/server";
 import * as cookie from "cookie";
 
@@ -13,7 +15,7 @@ export async function POST(request: NextRequest) {
 
   if (password === correctPassword) {
     const response = NextResponse.json({ success: true }, { status: 200 });
-    
+
     response.headers.set(
       "Set-Cookie",
       cookie.serialize("authToken", "authenticated", {
