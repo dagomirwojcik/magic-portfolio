@@ -58,7 +58,7 @@ const home = {
   headline: <>Innovative technologist passionate about systems and storytelling.</>,
   featured: {
     display: true,
-    title: <>"What's New:" <strong className="ml-4"> Final Year Project </strong></>,
+    title: <>What's New: <strong className="ml-4"> Final Year Project </strong></>,
     href: "https://fyp.dagomirwojcik.com",
   },
   subline: (
@@ -71,7 +71,7 @@ const home = {
 const about = {
   path: "/about",
   label: "About",
-  title: `About » ${person.name}`,
+  title: `${person.name} » About Me`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -103,7 +103,7 @@ const about = {
     experiences: [
       {
         company: "Birmingham City University",
-        timeframe: "2023 - Present",
+        timeframe: "2024 - Present",
         role: "Visiting Demonstrator",
         achievements: [
           <>
@@ -126,9 +126,9 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Manpower UK",
+        timeframe: "2023 - Present",
+        role: "Student Ambassador",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -148,12 +148,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Birmingham City University",
+        description: <>Studied: Business Information Technology.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "USP College - Palmer's Campus",
+        description: <>Studied: Information Technology.</>,
       },
     ],
   },
@@ -200,7 +200,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Here's what I've been up to",
+  title: "Dagomir Wojcik » Blog",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -209,7 +209,7 @@ const blog = {
 const work = {
   path: "/work",
   label: "Work",
-  title: `Projects » ${person.name}`,
+  title: `${person.name} » Projects`,
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
@@ -218,7 +218,7 @@ const work = {
 const gallery = {
   path: "/gallery",
   label: "Gallery",
-  title: `Photo gallery » ${person.name}`,
+  title: `${person.name} » Gallery`,
   description: `A photo collection by ${person.name}`,
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
