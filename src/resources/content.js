@@ -58,12 +58,12 @@ const home = {
   headline: <>Innovative technologist passionate about systems and storytelling.</>,
   featured: {
     display: true,
-    title: <>What's New: <strong className="ml-4"> Final Year Project </strong></>,
+    title: <>What&apos;s New: <strong className="ml-4"> Final Year Project </strong></>,
     href: "https://fyp.dagomirwojcik.com",
   },
   subline: (
     <>
-      I'm Dagomir, a university student at Birmingham City University, specializing in business information technology.
+      I&apos;m Dagomir, a university student at Birmingham City University, specializing in business information technology.
     </>
   ),
 };
